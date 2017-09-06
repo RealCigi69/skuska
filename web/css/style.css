@@ -1,0 +1,184 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #555;
+	background-color: #f7f7f7;
+
+	font-size: 13px;
+	font-family: 'Raleway', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+/*******************HEADER*******************/
+header {
+	border-bottom: 1px solid #ccc;
+}
+
+
+h1, h2, h3 {
+	color: #222;
+	font-weight: 800;
+}
+
+h1 {
+	font-size: 36px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 34px;
+}
+
+nav {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+.nav li {
+	font-size: 15px;
+	display: inline-block;
+	padding: 0 8px 0;
+}
+
+.nav li a:hover,
+.nav li a:focus {
+	border-bottom: 2px solid #f15665;
+}
+
+a {
+	color: #222;
+	font-style: italic;
+	text-decoration: none;
+}
+
+header,
+article,
+.right-sidebar {
+	background: #fff;
+	padding-bottom: 1px;
+}
+/*******************END of HEADER*******************/
+
+#main-guy,
+#second-guy
+ {
+	width: 100%;
+}
+
+main {
+	display: block;
+	max-width: 90%;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+
+article {
+	max-width: 70%;
+}
+
+article h2,
+article h3,
+article p,
+aside h2,
+aside h3,
+aside p {
+	padding: 23px 28px 0;
+}
+
+aside {
+ 	max-width: 28%;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.btn {
+	color: #fff;
+	background-color: #252122;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 2.8;
+
+	width: 180px;
+	height: 40px;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 46px;
+	margin-bottom: 26px;
+	display: block;
+}
+
+.btn:hover,
+.btn:focus {
+	color: #fff;
+	background-color: #373132;
+}
+
+
+/*******************FOOTER*******************/
+footer {
+	color: #fff;
+	background-color: #373132;
+	border-top: 1px solid #222;
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+
+.footer-nav li {
+	font-weight: normal;
+	padding-right: 50px;
+	padding-top: 50px;
+}
+
+footer a {
+	color: #fff;
+	font-size: 18px;
+}
+
+footer .nav li a:hover,
+footer .nav li a:focus {
+	color: #f15665;
+	border-bottom: none;
+}
+
+footer p {
+	color: #888;
+	font-style: italic;
+	text-align: center;
+
+	padding: 80px 0;
+	margin: 0;
+}
+
+
+
+
+
+.group:before,
+.group:after {
+	content: " ";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	*zoom: 1;
+}
